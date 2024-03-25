@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style order.css">
+  <title>Order</title>
+</head>
+<body>
+  <div class="order-container">
+    <h1 class="title">Order Form</h1>
+    <div class="items-container">
+      <div class="item">
+        <input id="option-1" type="checkbox" name="item" value="Cappucino">
+        <label for="option-1">Roti Cake</label>
+        <div class="price"></div>
+      </div>
+      <div class="item">
+        <input id="option-2" type="checkbox" name="item" value="Green Tea Latte">
+        <label for="option-2">Cromboloni</label>
+        <div class="price"></div>
+      </div>
+      <div class="item">
+        <input id="option-3" type="checkbox" name="item" value="Fish and Chips">
+        <label for="option-3">Fish and Chips</label>
+        <div class="price"></div>
+      </div>
+      <div class="item">
+        <input id="option-4" type="checkbox" name="item" value="Tuna Sandwich">
+        <label for="option-4">Tuna Sandwich</label>
+        <div class="price"></div>
+      </div>
+      <div class="item">
+        <input id="option-5" type="checkbox" name="item" value="Mineral Water">
+        <label for="option-5">Mineral Water</label>
+        <div class="price"></div>
+      </div>
+    </div>
+    <div class="total-container">
+      <div class="item total">
+        <label>Total:</label>
+        <span class="amount">Rp 0</span>
+      </div>
+    </div>
+    <button onclick="changePage('order.html')">Back</button>
+  </div>
+
+  <script src="app2.js"></script>
+</body>
+</html>
